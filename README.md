@@ -20,8 +20,15 @@ The dashboard provides a comprehensive view of customer activity based on loyalt
 
 ##  Dataset Description
 
-The dataset contains customer-level and monthly behavioral data with the following features:
+The dataset contains:
 
+* **Primary City** – Customer location
+* **Account Number** – Unique customer identifier
+* **Customer Type** – Category of customer
+* **Data Subscribed (GB)** – Value of Data Purchased
+* **Data Bonus (GB)** – Value of Data Bonus
+
+--- The dataset after transformation contains customer-level and monthly behavioral data with the following features:
 * **Primary City** – Customer location
 * **Account Number** – Unique customer identifier
 * **Customer Type** – Category of customer
@@ -32,8 +39,6 @@ The dataset contains customer-level and monthly behavioral data with the followi
 * **Final Score** – Combined performance score
 * **Score %** – Normalized score representation
 * **Customer Tier** – Segmentation label (Tier 1, Tier 2, Tier 3)
-
----
 
 ##  Tools & Technologies
 
